@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Music\\PCF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Music\\PCF\\CRMCrate\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CRMCrate\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Music\\PCF\\CRMCrate\\ControlManifest.Input.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CRMCrate\\ControlManifest.Input.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.ts",
+              "DocumentMoniker": "C:\\Users\\Dell\\Music\\PCF\\CRMCrate\\index.ts",
+              "RelativeDocumentMoniker": "CRMCrate\\index.ts",
+              "ToolTip": "C:\\Users\\Dell\\Music\\PCF\\CRMCrate\\index.ts",
+              "RelativeToolTip": "CRMCrate\\index.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-22T11:58:28.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ControlManifest.Input.xml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Music\\PCF\\CRMCrate\\ControlManifest.Input.xml",
+              "RelativeDocumentMoniker": "CRMCrate\\ControlManifest.Input.xml",
+              "ToolTip": "C:\\Users\\Dell\\Music\\PCF\\CRMCrate\\ControlManifest.Input.xml",
+              "RelativeToolTip": "CRMCrate\\ControlManifest.Input.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-07-22T11:58:23.157Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

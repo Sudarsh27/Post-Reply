@@ -1,0 +1,139 @@
+.threaded-conversation {
+   /* display: flex; */
+   /* flex-direction: column; */
+   /* align-items: center; */ /* Center items horizontally */
+   /* padding:10px; */
+   width: 70%;
+}
+
+.new-post-content {
+   width: 100%;
+   margin-bottom:3px;
+   padding:10px;
+   background-color: #f4f3fb;
+   border: 0.2px solid #0c0b0b;
+   position: relative;
+   resize: none;
+   right:1px;
+   left:-9px;
+}
+
+.new-post-button {
+    position: relative;
+   align-self:flex-end;
+    /* Align button to center horizontally */
+   background-color: #0f6cbd; /* Black background color for post button */
+   color: white; /* White text color for post button */
+   padding: 5px 12px;
+   border: none;
+   cursor: pointer;
+   right:10px;
+   margin-bottom:10px;
+}
+
+.posts {
+   width: 100%;
+}
+
+.post {
+   background-color: #ededfc;
+   color: #333; /* Dark text color for posts */
+   border-radius: 10px;
+   padding: 10px;
+   float:right;
+   margin-bottom: 10px;
+   width:100%
+}
+
+.reply {
+   background-color: #fffafa; /* Light pink background color for replies */
+   color: #333; /* Dark text color for replies */
+   border-radius: 10px;   
+   padding: 10px;
+   margin: 10px;
+   width: calc(100% - 30px);
+}
+.post-author, .reply-author {
+   font-weight: normal; /* Normal weight for author names */
+   color: #0c0c0c; /* Lighter color for author names */
+   font-size: 0.6em; /* Smaller font size for author names */
+   margin-top: 10px; /* Space above author names */
+}
+
+.post-content, .reply-content {
+   margin-bottom: 10px; /* Space below the content */
+}
+
+.new-reply-content {
+   width: 100%;
+    padding:2px;
+   border-radius: 10px;
+   margin-bottom: 10px;
+   resize: none;
+}
+
+.reply-content {
+   padding:2px;
+   color: #333; /* Dark text color for reply content */
+   margin-bottom: 10px;
+}
+
+.reply-button {
+   align-self: flex-start;
+   background-color: rgb(11, 122, 212);  /* Black background color for reply button */
+   color: white; /* White text color for reply button */
+   padding: 8px 16px;
+   border: none;
+   cursor: pointer;
+}
+
+.replies {
+   display: flex;
+   flex-direction: column;
+   margin-top: 10px;
+}
+
+.post-modified-on, .reply-modified-on {
+   font-size: 0.6em; /* Smaller font size for the date */
+   color: #666; /* Light color for the date */
+   text-align: right; /* Align to the bottom right */
+   margin-top: 5px; /* Space above the date */
+}
+
+/* Hide "Modified On" label */
+.post-modified-on::before, .reply-modified-on::before {
+    content: "";
+}
+
+/* Link styling */
+.post-content a,
+.reply-content a {
+    color: #0078d4; /* Blue color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.post-content a:hover,
+.reply-content a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Suggestions styling */
+.suggestions {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 70%;
+    z-index: 1000;
+}
+
+.suggestion-item {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0;
+}
