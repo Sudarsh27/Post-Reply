@@ -292,10 +292,10 @@ export class Postings implements ComponentFramework.StandardControl<IInputs, IOu
         const cursorPosition = textarea.selectionStart;
         const beforeAt = value.substring(0, atIndex);
         const afterAt = value.substring(cursorPosition);
-        const newValue = `${beforeAt}@${userName} ${afterAt}`;
+        const newValue ="".concat(beforeAt, "@").concat(userName, ", ").concat(afterAt);
 
         textarea.value = newValue;
-        textarea.selectionStart = textarea.selectionEnd = beforeAt.length + userName.length + 2;
+        textarea.selectionStart = textarea.selectionEnd = beforeAt.length + userName.length + 3;
 
         this.hideUserSuggestions(textarea.parentElement);
     }
